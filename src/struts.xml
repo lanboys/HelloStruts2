@@ -5,4 +5,16 @@
     "http://struts.apache.org/dtds/struts-2.5.dtd">
 
 <struts>
+    <package name="helloPkg" extends="struts-default" namespace="/bing">
+
+        <action name="hello" class="com.bing.lan.struts2.action.HelloAction" method="sayHello">
+            <result name="success" type="dispatcher">
+                <param name="location">/views/hello.jsp</param>
+            </result>
+        </action>
+
+
+    </package>
+
+
 </struts>
