@@ -9,6 +9,8 @@
       <root url="jar://$PROJECT_DIR$/lib/commons-lang.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/freemarker.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/struts2-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist-3.20.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-api-2.8.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
